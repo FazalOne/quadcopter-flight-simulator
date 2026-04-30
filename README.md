@@ -1,16 +1,28 @@
 # Quadcopter Flight Simulator
 
-A university project focused on quadcopter flight simulation concepts.
+A Python-based quadcopter flight simulator with interactive controls, physics-based motion updates, 3D-style rendering, and an aviation-inspired HUD.
 
-## Overview
+## What this project demonstrates
 
-This repository contains simulator assets and implementation files related to modeling and visualizing quadcopter behavior.
+- 6-DOF style state simulation (position, velocity, and attitude state variables)
+- Thrust/torque-driven updates using matrix-based physics calculations
+- Real-time rendering loop with PyGame
+- HUD overlays including pitch ladder, heading tape, and speed/altitude tapes
+- Adjustable camera/FOV behavior and simulator control panel inputs
 
-## Contents
+## Tech Stack
 
-- Simulation project files and source assets
-- Supporting documents and media where applicable
+- Python
+- PyGame
+- NumPy
 
-## Notes
+## Key Files
 
-This repository is extracted as a standalone project from the original `uni-projects` collection.
+- `main.py` - simulation, rendering, UI controls, and HUD logic
+
+## Run
+
+```bash
+pip install pygame numpy
+python main.py
+```
